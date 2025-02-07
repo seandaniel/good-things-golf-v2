@@ -1,0 +1,39 @@
+@use "./variables" as *;
+
+header {
+  padding: 100px 0 40px 0;
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    h1 {
+      text-transform: lowercase;
+      a {
+        color: $primaryColor;
+        transition: color 0.35s;
+        &:hover,
+        &:focus {
+          color: $tertiaryColor;
+        }
+      }
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      background-color: $primaryColor;
+      height: 4px;
+    }
+    img {
+      position: relative;
+      top: 10px;
+    }
+  }
+}

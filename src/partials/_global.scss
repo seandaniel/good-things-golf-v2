@@ -1,7 +1,9 @@
+@use "./variables" as *;
+
 body {
-  font-family: primaryFont;
-  color: primaryColor;
-  background: tertiaryColor;
+  font-family: $primaryFont;
+  color: $primaryColor;
+  background: $secondaryColor;
 }
 
 h1,
@@ -42,7 +44,7 @@ button {
 }
 
 .wrapper {
-  max-width: 1100px;
-  width: 95%;
+  max-width: 1400px;
+  width: 98%;
   margin: 0 auto;
 }
