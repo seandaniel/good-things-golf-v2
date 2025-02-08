@@ -1,6 +1,11 @@
-$primaryFont: "Lobster";
+@font-face {
+  font-family: "Lores";
+  src: url("./assets/lores.ttf") format("truetype"); // Correct format
+}
+
+$primaryFont: "Lores";
 $secondaryFont: "Roboto";
 
 $primaryColor: #272727;
 $secondaryColor: #f4f4f4;
-$tertiaryColor: #88d38a;
+$tertiaryColor: #34358d;
