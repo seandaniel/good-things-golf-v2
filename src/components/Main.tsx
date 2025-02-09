@@ -10,7 +10,7 @@ export const Main = () => {
           <Masonry>
             {images.map(({ title, alt, src }, i) => (
               <div key={i} className="img-container">
-                <Link to={`/image/${i}`}>
+                <Link to={`/image/${i}`} onClick={() => window.scrollTo(0, 0)}>
                   <img
                     src={src}
                     style={{ width: "100%", display: "block" }}

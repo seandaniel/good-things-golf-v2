@@ -3,6 +3,7 @@
 .image-page {
   h1 {
     margin: 20px 0;
+    text-transform: lowercase;
   }
   img {
     max-width: 800px;
@@ -26,7 +27,13 @@
     font-size: 19px;
     button {
       font-family: $primaryFont;
-      text-transform: uppercase;
+      text-decoration: underline;
+      color: #00f;
+      text-transform: lowercase;
+      &:hover,
+      &:focus {
+        color: #ff0000;
+      }
     }
   }
 }

@@ -13,6 +13,9 @@ import scholars from "../assets/scholars-min.jpg";
 import pushCartMafia from "../assets/pushCartMafia-min.jpg";
 import theRise from "../assets/theRise-min.jpg";
 import goldenHour from "../assets/goldenHour-min.jpg";
+import bigCat from "../assets/bigCat-min.jpg";
+// @ts-expect-error - jpg vs JPG problems
+import shannonLake from "../assets/shannonLake-min.JPG";
 
 const images = [
   {
@@ -28,6 +31,13 @@ const images = [
     src: wasteland,
     date: "2021-06-22",
     className: "landscape",
+  },
+  {
+    title: "Big Cat",
+    alt: "Two pictures of Tiger Woods",
+    src: bigCat,
+    date: "2025-02-08",
+    className: "portrait"
   },
   {
     title: "Ghostrider",
@@ -51,6 +61,13 @@ const images = [
     className: "portrait",
   },
   {
+    title: "Moody",
+    alt: "A cloud surrounding a mountain",
+    src: shannonLake,
+    date: "20218-08-12",
+    className: "portrait"
+  },
+  {
     title: "Bubba",
     alt: "A golfer in the middle of a swing, with a picturesque background",
     src: pullback,
@@ -65,7 +82,7 @@ const images = [
     className: "portrait",
   },
   {
-    title: "Kalamalka",
+    title: "Oakanagan",
     alt: "A breathtaking view from a golf course set in the mountains",
     src: theRise,
     date: "2024-02-08",
@@ -93,17 +110,17 @@ const images = [
     className: "portrait",
   },
   {
+    title: "Spring Melt",
+    alt: "A golf ball in front of a mountain",
+    src: fernie,
+    date: "2016-07-16",
+    className: "portrait",
+  },
+  {
     title: "Priorities",
     alt: "A screenshot of a Slack channel",
     src: uberflip,
     date: "2022-08-09",
-    className: "portrait",
-  },
-  {
-    title: "Headwall",
-    alt: "A golf ball in front of a mountain",
-    src: fernie,
-    date: "2016-07-16",
     className: "portrait",
   },
 ];
