@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./index.scss";
 import { Header } from "./components/Header";
 import { Main } from "./components/Main";
-import { ImagePage } from "./components/ImagePage";
+import { Single } from "./components/Single";
 import { Footer } from "./components/Footer";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/image/:imageId" element={<ImagePage />} />
+        <Route path="/image/:imageId" element={<Single />} />
       </Routes>
       <Footer />
     </Router>

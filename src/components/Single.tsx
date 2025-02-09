@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from "react-router-dom";
 import images from "../data/images";
 
-export const ImagePage = () => {
+export const Single = () => {
   const { imageId } = useParams(); // Get the image ID from the URL
   const navigate = useNavigate(); // Hook to navigate programmatically
   const image = images[Number(imageId)]; // Convert ID to number and find image

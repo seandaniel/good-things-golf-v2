@@ -1,7 +1,9 @@
 import gambleSands from "../assets/gambleSands.jpg";
 import wasteland from "../assets/wasteland.jpg";
-import ghostrider from "../assets/ghostrider.jpg";
-import fernie from "../assets/fernie.jpg";
+// @ts-expect-error - jpg vs JPG problems
+import ghostrider from "../assets/ghostrider.JPG";
+// @ts-expect-error - jpg vs JPG problems
+import fernie from "../assets/fernie.JPG";
 import pullback from "../assets/pullback.jpg";
 import uberflip from "../assets/uberflip.jpg";
 import sundayBag from "../assets/sundayBag.jpg";
