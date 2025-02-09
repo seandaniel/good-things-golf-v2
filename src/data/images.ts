@@ -1,18 +1,18 @@
-import gambleSands from "../assets/gambleSands.jpg";
-import wasteland from "../assets/wasteland.jpg";
+import gambleSands from "../assets/gambleSands-min.jpg";
+import wasteland from "../assets/wasteland-min.jpg";
 // @ts-expect-error - jpg vs JPG problems
-import ghostrider from "../assets/ghostrider.JPG";
+import ghostrider from "../assets/ghostrider-min.JPG";
 // @ts-expect-error - jpg vs JPG problems
-import fernie from "../assets/fernie.JPG";
-import pullback from "../assets/pullback.jpg";
-import uberflip from "../assets/uberflip.jpg";
-import sundayBag from "../assets/sundayBag.jpg";
-import carts from "../assets/carts.jpg";
-import colors from "../assets/colors.jpg";
-import scholars from "../assets/scholars.jpg";
-import pushCartMafia from "../assets/pushCartMafia.jpg";
-import theRise from "../assets/theRise.jpg";
-import goldenHour from "../assets/goldenHour.jpg";
+import fernie from "../assets/fernie-min.JPG";
+import pullback from "../assets/pullback-min.jpg";
+import uberflip from "../assets/uberflip-min.jpg";
+import sundayBag from "../assets/sundayBag-min.jpg";
+import carts from "../assets/carts-min.jpg";
+import colors from "../assets/colors-min.jpg";
+import scholars from "../assets/scholars-min.jpg";
+import pushCartMafia from "../assets/pushCartMafia-min.jpg";
+import theRise from "../assets/theRise-min.jpg";
+import goldenHour from "../assets/goldenHour-min.jpg";
 
 const images = [
   {
