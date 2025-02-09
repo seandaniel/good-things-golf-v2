@@ -3,6 +3,7 @@ import "./index.scss";
 import { Header } from "./components/Header";
 import { Main } from "./components/Main";
 import { ImagePage } from "./components/ImagePage";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Main />} />
         <Route path="/image/:imageId" element={<ImagePage />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

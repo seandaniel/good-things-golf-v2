@@ -1,2 +1,17 @@
+@use "./variables" as *;
 footer {
+  margin: 10px 0 40px 0;
+  .wrapper.wrapper-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $tertiaryColor;
+    height: 79.67px;
+  }
+  .wrapper {
+    h3 {
+      margin-top: 40px;
+      text-transform: lowercase;
+    }
+  }
 }

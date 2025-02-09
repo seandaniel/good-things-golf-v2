@@ -1,0 +1,31 @@
+@use "./variables" as *;
+
+.image-page {
+  h1 {
+    margin: 20px 0;
+  }
+  img {
+    max-width: 800px;
+    height: auto;
+    object-fit: cover;
+    @media (min-width: 800px) {
+      display: block;
+      height: 600px;
+      margin: 0 auto;
+    }
+  }
+  @media (min-width: 800px) {
+    &.portrait img {
+      width: 450px !important;
+    }
+  }
+  .date-description-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    button {
+      font-family: $primaryFont;
+      text-transform: uppercase;
+    }
+  }
+}
