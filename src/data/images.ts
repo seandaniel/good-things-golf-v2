@@ -69,7 +69,7 @@ const images = [
     className: "portrait"
   },
   {
-    title: "Big Sean",
+    title: "Tempo",
     alt: "A golfer in the middle of a swing, with a picturesque background",
     src: pullback,
     date: "2022-07-17",
