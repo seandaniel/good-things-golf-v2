@@ -16,6 +16,7 @@ import goldenHour from "../assets/goldenHour-min.jpg";
 import bigCat from "../assets/bigCat-min.jpg";
 // @ts-expect-error - jpg vs JPG problems
 import shannonLake from "../assets/shannonLake-min.JPG";
+import darts from "../assets/dart-min.jpg";
 
 const images = [
   {
@@ -26,14 +27,14 @@ const images = [
     className: "portrait",
   },
   {
-    title: "Wasteland",
+    title: "Beachy",
     alt: "A man with a beer poses in front of a large waste bunker",
     src: wasteland,
     date: "2021-06-22",
     className: "landscape",
   },
   {
-    title: "Big Cat",
+    title: "Tigs",
     alt: "Two pictures of Tiger Woods",
     src: bigCat,
     date: "2025-02-08",
@@ -47,14 +48,14 @@ const images = [
     className: "portrait",
   },
   {
-    title: "Push Cart Mafia",
-    alt: "A group of golfers walking with push carts",
-    src: pushCartMafia,
-    date: "2022-08-16",
+    title: "Scholars",
+    alt: "A golf simulator",
+    src: scholars,
+    date: "2022-01-19",
     className: "portrait",
   },
   {
-    title: "Beachy",
+    title: "Wild West",
     alt: "A golf cart",
     src: carts,
     date: "2023-10-03",
@@ -68,7 +69,7 @@ const images = [
     className: "portrait"
   },
   {
-    title: "Bubba",
+    title: "Big Sean",
     alt: "A golfer in the middle of a swing, with a picturesque background",
     src: pullback,
     date: "2022-07-17",
@@ -96,18 +97,24 @@ const images = [
     className: "portrait",
   },
   {
-    title: "Wild West",
+    title: "Push Cart Mafia",
+    alt: "A group of golfers walking with push carts",
+    src: pushCartMafia,
+    date: "2022-08-16",
+    className: "portrait",
+  },
+  {
+    title: "Darts",
+    alt: "A range finder",
+    src: darts,
+    className: "portrait"
+  },
+  {
+    title: "Good Good",
     alt: "Two golfers walk their pushcarts down a fairway",
     src: gambleSands,
     date: "2023-10-02",
     className: "landscape",
-  },
-  {
-    title: "Scholars",
-    alt: "A golf simulator",
-    src: scholars,
-    date: "2022-01-19",
-    className: "portrait",
   },
   {
     title: "Spring Melt",
