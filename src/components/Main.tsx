@@ -1,4 +1,4 @@
-import { useLayoutEffect, useRef } from "react";
+import { useLayoutEffect } from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import { Link, useLocation } from "react-router-dom";
 import images from "../data/images";
