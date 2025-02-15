@@ -124,7 +124,7 @@ const images = [
     className: "portrait",
   },
   {
-    title: "Priorities",
+    title: "Dev Priorities",
     alt: "A screenshot of a Slack channel",
     src: uberflip,
     date: "2022-08-09",

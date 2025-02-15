@@ -24,7 +24,7 @@ export const Main = () => {
   return (
     <div className="wrapper">
       <main>
-        <ResponsiveMasonry columnsCountBreakPoints={{ 500: 2, 900: 3 }}>
+        <ResponsiveMasonry columnsCountBreakPoints={{ 500: 3, 900: 3 }}>
           <Masonry>
             {images.map(({ title, alt, src }, i) => (
               <div key={i} className="img-container">

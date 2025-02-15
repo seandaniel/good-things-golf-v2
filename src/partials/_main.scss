@@ -5,18 +5,29 @@ main {
     display: flex;
     flex-direction: column;
     h2 {
-      padding-top: 10px;
-      font-size: 20px;
+      padding-top: 5px;
+      font-size: 16px;
       text-decoration: underline;
       text-transform: lowercase;
       color: #00f;
       transition: color 0.35s;
+      @media (min-width: 900px) {
+        padding-top: 10px;
+        font-size: 20px;
+      }
     }
     &:hover,
     &:focus {
       h2 {
         color: #ff0000;
       }
+    }
+  }
+
+  // masonry overwrite
+  @media (max-width: 900px) {
+    div div {
+      gap: 5px !important;
     }
   }
 }
