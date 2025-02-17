@@ -17,6 +17,7 @@ import bigCat from "../assets/bigCat-min.jpg";
 // @ts-expect-error - jpg vs JPG problems
 import shannonLake from "../assets/shannonLake-min.JPG";
 import darts from "../assets/dart-min.jpg";
+import leafy from "../assets/leafy-min.jpg";
 
 const images = [
   {
@@ -122,6 +123,13 @@ const images = [
     src: fernie,
     date: "2016-07-16",
     className: "portrait",
+  },
+  {
+    title: "Leafy",
+    alt: "A golf bag beside a plant",
+    src: leafy,
+    date: "2024-07-14",
+    className: 'portrait',
   },
   {
     title: "Dev Priorities",

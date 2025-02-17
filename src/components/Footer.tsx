@@ -3,10 +3,8 @@ export const Footer = () => {
     <footer>
       <div className="wrapper wrapper-footer"></div>
       <div className="wrapper">
-        <h3>
-          All images courtesy of Sean de Groot<br></br>(steal them and nothing
-          will happen)
-        </h3>
+        <h3>All images courtesy of Sean de Groot</h3>
+        <p>(Steal them and nothing will happen)</p>
       </div>
     </footer>
   );
