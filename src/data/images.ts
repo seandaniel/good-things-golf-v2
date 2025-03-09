@@ -35,7 +35,7 @@ const images = [
     className: "landscape",
   },
   {
-    title: "Tigs",
+    title: "Tiger(s)",
     alt: "Two pictures of Tiger Woods",
     src: bigCat,
     date: "2025-02-08",
@@ -108,6 +108,7 @@ const images = [
     title: "Darts",
     alt: "A range finder",
     src: darts,
+    date: "2022-06-16",
     className: "portrait"
   },
   {

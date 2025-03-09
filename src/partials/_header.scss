@@ -1,7 +1,7 @@
 @use "./variables" as *;
 
 header {
-  margin: 40px 0 5px 0;
+  margin: 5px 0 5px 0;
   .wrapper {
     display: flex;
     justify-content: center;
@@ -23,6 +23,6 @@ header {
     width: 40px;
   }
   @media (min-width: 900px) {
-    margin: 40px 0 10px 0;
+    margin: 10px 0 10px 0;
   }
 }

@@ -1,6 +1,6 @@
 @use "./variables" as *;
 footer {
-  margin: 5px 0 5px 0;
+  margin: 2.5px 0 2.5px 0;
   .wrapper.wrapper-footer {
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@ footer {
   }
   .wrapper {
     h3 {
-      margin-top: 5px;
+      margin-top: 2.5px;
       font-size: 16px;
       text-transform: lowercase;
     }
@@ -29,6 +29,6 @@ footer {
     }
   }
   @media (min-width: 900px) {
-    margin: 10px 0 10px 0;
+    margin: 5px 0 5px 0;
   }
 }
