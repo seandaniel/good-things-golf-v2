@@ -1,11 +1,13 @@
 @use "./variables" as *;
 
 .image-page {
+  display: flex;
+  flex-direction: column;
   h1 {
-    margin: 10px 0;
+    margin: 0 0 10px 0;
     text-transform: lowercase;
     @media (max-width: 900px) {
-      margin: 5px 0;
+      margin: 0 0 5px 0;
     }
   }
   img {
@@ -26,10 +28,10 @@
   .date-description-container {
     display: flex;
     justify-content: space-between;
-    margin: 10px 0;
+    margin: 10px 0 5px 0;
     font-size: 19px;
     @media (max-width: 900px) {
-      margin: 0 0 5px 0;
+      margin: 5px 0 2.5px 0;
     }
     button {
       font-family: $primaryFont;
