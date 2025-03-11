@@ -2,8 +2,11 @@
 
 .image-page {
   h1 {
-    margin: 20px 0;
+    margin: 10px 0;
     text-transform: lowercase;
+    @media (max-width: 900px) {
+      margin: 5px 0;
+    }
   }
   img {
     max-width: 800px;
@@ -23,8 +26,11 @@
   .date-description-container {
     display: flex;
     justify-content: space-between;
-    margin: 20px 0;
+    margin: 10px 0;
     font-size: 19px;
+    @media (max-width: 900px) {
+      margin: 0 0 5px 0;
+    }
     button {
       font-family: $primaryFont;
       text-decoration: underline;
