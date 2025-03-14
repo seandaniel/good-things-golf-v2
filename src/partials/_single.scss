@@ -1,5 +1,4 @@
 @use "./variables" as *;
-
 .image-page {
   display: flex;
   flex-direction: column;
@@ -14,15 +13,11 @@
     max-width: 800px;
     height: auto;
     object-fit: cover;
+    // landscape
     @media (min-width: 800px) {
       display: block;
       height: 600px;
       margin: 0 auto;
-    }
-  }
-  @media (min-width: 800px) {
-    &.portrait img {
-      width: 450px !important;
     }
   }
   .date-description-container {

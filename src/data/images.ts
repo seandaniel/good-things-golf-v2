@@ -2,8 +2,6 @@ import gambleSands from "../assets/gambleSands-min.jpg";
 import wasteland from "../assets/wasteland-min.jpg";
 // @ts-expect-error - jpg vs JPG problems
 import ghostrider from "../assets/ghostrider-min.JPG";
-// @ts-expect-error - jpg vs JPG problems
-import fernie from "../assets/fernie-min.JPG";
 import pullback from "../assets/pullback-min.jpg";
 import uberflip from "../assets/uberflip-min.jpg";
 import sundayBag from "../assets/sundayBag-min.jpg";
@@ -41,7 +39,7 @@ const images = [
     alt: "Two pictures of Tiger Woods",
     src: bigCat,
     date: "2025-02-08",
-    className: "portrait"
+    className: "landscape"
   },
   {
     title: "Ghostrider",
@@ -69,7 +67,7 @@ const images = [
     alt: "A cloud surrounding a mountain",
     src: shannonLake,
     date: "20218-08-12",
-    className: "portrait"
+    className: "landscape"
   },
   {
     title: "Tempo",
@@ -104,7 +102,7 @@ const images = [
     alt: "Golf shoes, towel, push cart",
     src: colors,
     date: "2022-09-03",
-    className: "portrait",
+    className: "landscape",
   },
   {
     title: "Push Cart Mafia",
@@ -125,7 +123,7 @@ const images = [
     alt: "A range finder",
     src: darts,
     date: "2022-06-16",
-    className: "portrait"
+    className: "landscape"
   },
   {
     title: "Good Good",
@@ -133,13 +131,6 @@ const images = [
     src: gambleSands,
     date: "2023-10-02",
     className: "landscape",
-  },
-  {
-    title: "Spring Melt",
-    alt: "A golf ball in front of a mountain",
-    src: fernie,
-    date: "2016-07-16",
-    className: "portrait",
   },
   {
     title: "Leafy",

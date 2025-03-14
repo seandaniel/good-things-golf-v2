@@ -10,7 +10,7 @@ export const Single = () => {
     <div className="wrapper">
       <section className={`image-page ${image.className}`}>
         <h1>{image.title}</h1>
-        <img src={image.src} alt={image.alt} style={{ width: "100%" }} />
+        <img src={image.src} alt={image.alt} />
         <div className="date-description-container">
           <p>{image.date}</p>
           <button onClick={() => navigate(-1)}>Back</button>
