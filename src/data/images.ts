@@ -18,6 +18,8 @@ import bigCat from "../assets/bigCat-min.jpg";
 import shannonLake from "../assets/shannonLake-min.JPG";
 import darts from "../assets/dart-min.jpg";
 import leafy from "../assets/leafy-min.jpg";
+import best from "../assets/best-min.jpg";
+import pins from "../assets/pins-min.jpg"
 
 const images = [
   {
@@ -77,6 +79,13 @@ const images = [
     className: "portrait",
   },
   {
+    title: "Best of both worlds",
+    alt: "A fairway with snow covered mountains in the background",
+    src: best,
+    date: "2016-05-04",
+    className: "landscape",
+  },
+  {
     title: "Golden Hour",
     alt: "The sun poking through a forest",
     src: goldenHour,
@@ -102,6 +111,13 @@ const images = [
     alt: "A group of golfers walking with push carts",
     src: pushCartMafia,
     date: "2022-08-16",
+    className: "portrait",
+  },
+  {
+    title: "Fresh pins",
+    alt: "A greenskeeper setting a golf pin",
+    src: pins,
+    date: "2019-06-09",
     className: "portrait",
   },
   {
