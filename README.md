@@ -10,27 +10,23 @@
 Make sure you have the following installed:
 ```
 Node.js >= 16
-npm or yarn
+npm
 ```
 Install once the repository is cloned locally:
 ```
 npm install
-# or
-yarn
 ```
 Run locally:
 ```
 npm run dev
-# or
-yarn dev
 ```
 The app will be available at: [http://localhost:5173/](http://localhost:5173/)
 
-## 🧩 Folder Structure
+## 📁 Folder Structure
 
 ```
 src/
-├── assets/
+├── assets/                  # Image assets for the masonry photo grid
 │   ├── best-min.jpg
 │   ├── bigCat-min.jpg
 │   ├── carts-min.jpg
@@ -54,19 +50,19 @@ src/
 ├── components/
 │   ├── Footer.tsx
 │   ├── Header.tsx
-│   ├── Main.tsx
-│   └── Single.tsx
+│   ├── Main.tsx             # Masonry photo grid
+│   └── Single.tsx           # Single photo page when photo in masonry grid is clicked
 ├── data/
 │   └── images.ts
-├── partials/
+├── partials/                # All components have their individual partial
 │   ├── _footer.scss
-│   ├── _global.scss
+│   ├── _global.scss         # Applies across all components
 │   ├── _header.scss
 │   ├── _main.scss
-│   ├── _setup.scss
+│   ├── _setup.scss          # For browser consistency 
 │   ├── _single.scss
 │   └── _variables.scss
-├── App.tsx
-├── index.scss
+├── App.tsx                  # Home page directory
+├── index.scss               # All Sass partial imports   
 └── main.tsx
 ```
