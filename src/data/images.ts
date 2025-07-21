@@ -14,20 +14,18 @@ import goldenHour from "../assets/goldenHour-min.jpg";
 import bigCat from "../assets/bigCat-min.jpg";
 // @ts-expect-error - jpg vs JPG problems
 import shannonLake from "../assets/shannonLake-min.JPG";
-import darts from "../assets/dart-min.jpg";
-import leafy from "../assets/leafy-min.jpg";
 import best from "../assets/best-min.jpg";
 import pins from "../assets/pins-min.jpg"
 import hockeyHole from "../assets/hockey-hole-min.jpg";
 
 const images = [
-  {
-    title: "Hockey Hole",
-    alt: "A golf hole surrounded by hockey boards",
-    src: hockeyHole,
-    date: "2025-06-09",
-    className: "portrait"
-  },
+  // {
+  //   title: "Hockey Hole",
+  //   alt: "A golf hole surrounded by hockey boards",
+  //   src: hockeyHole,
+  //   date: "2025-06-09",
+  //   className: "portrait"
+  // },
   {
     title: "Sunday Bag",
     alt: "A golf bag and a bench",
@@ -81,7 +79,7 @@ const images = [
     title: "Tempo",
     alt: "A golfer in the middle of a swing, with a picturesque background",
     src: pullback,
-    date: "2022-07-17",
+    date: "2023-10-03",
     className: "portrait",
   },
   {
@@ -127,25 +125,11 @@ const images = [
     className: "portrait",
   },
   {
-    title: "Darts",
-    alt: "A range finder",
-    src: darts,
-    date: "2022-06-16",
-    className: "landscape"
-  },
-  {
     title: "Good Good",
     alt: "Two golfers walk their pushcarts down a fairway",
     src: gambleSands,
     date: "2023-10-02",
     className: "landscape",
-  },
-  {
-    title: "Leafy",
-    alt: "A golf bag beside a plant",
-    src: leafy,
-    date: "2024-07-14",
-    className: 'portrait',
   },
   {
     title: "Dev Priorities",
