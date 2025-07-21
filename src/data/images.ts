@@ -16,16 +16,10 @@ import bigCat from "../assets/bigCat-min.jpg";
 import shannonLake from "../assets/shannonLake-min.JPG";
 import best from "../assets/best-min.jpg";
 import pins from "../assets/pins-min.jpg"
-import hockeyHole from "../assets/hockey-hole-min.jpg";
+import hockeyHole from "../assets/hockeyHole-min.jpg"
+import relax from "../assets/relax-min.jpeg";
 
 const images = [
-  // {
-  //   title: "Hockey Hole",
-  //   alt: "A golf hole surrounded by hockey boards",
-  //   src: hockeyHole,
-  //   date: "2025-06-09",
-  //   className: "portrait"
-  // },
   {
     title: "Sunday Bag",
     alt: "A golf bag and a bench",
@@ -90,6 +84,13 @@ const images = [
     className: "landscape",
   },
   {
+    title: "Hockey Hole",
+    alt: "A golf hole surrounded by hockey boards",
+    src: hockeyHole,
+    date: "2025-06-09",
+    className: "portrait"
+  },
+  {
     title: "Golden Hour",
     alt: "The sun poking through a forest",
     src: goldenHour,
@@ -109,6 +110,13 @@ const images = [
     src: colors,
     date: "2022-09-03",
     className: "landscape",
+  },
+  {
+    title: "Relax, take a seat",
+    alt: "Patrons sitting on a hill watching the 18th green",
+    src: relax,
+    date: "2022-09-10",
+    className: "portrait",
   },
   {
     title: "Push Cart Mafia",
