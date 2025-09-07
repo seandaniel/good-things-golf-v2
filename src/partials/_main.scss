@@ -12,8 +12,7 @@ main {
       color: #00f;
       transition: color 0.35s;
       @media (max-width: 900px) {
-        padding-top: 0px;
-        font-size: 16px;
+        padding-top: 5px;
       }
     }
     &:hover,
@@ -22,13 +21,20 @@ main {
         color: #ff0000;
       }
     }
+    &:last-child {
+      h2 {
+        @media (max-width: 900px) {
+          padding-bottom: 5px;
+        }
+      }
+    }
   }
   // masonry overwrite
   div div {
     row-gap: 5px !important;
     @media (max-width: 900px) {
       column-gap: 5px !important;
-      row-gap: 2.5px !important;
+      row-gap: 7.5px !important;
     }
   }
 }
